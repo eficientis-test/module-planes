@@ -2,7 +2,6 @@
   "name": "module-planes",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
   "main": "index.js",
   "scripts": {
     "generate-plugin": "npx @eficientis-test/template-module-sdk"
@@ -10,7 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "@eficientis-test/template-module-sdk": "^1.0.3"
+  "devDependencies": {
+    "@eficientis-test/template-module-sdk": "^1.0.0"
   }
 }
