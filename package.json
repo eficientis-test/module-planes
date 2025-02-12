@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "generate-plugin": "npx @eficientis-test/template-module-sdk"
+    "setup": "npx setup-sdk",
+    "create-plugin": "npx create-plugin"
   },
   "keywords": [],
   "author": "",

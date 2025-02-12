@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "module": "Node16",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "outDir": "./lib",
+    "rootDir": "./src",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "target": "es2017",
+    "moduleResolution": "node16",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "types": [
+      "node"
+    ],
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/config/**/*.json"
+  ],
+  "exclude": [
+    "node_modules",
+    "lib",
+    "dist"
+  ]
+}
